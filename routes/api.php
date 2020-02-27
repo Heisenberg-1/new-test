@@ -20,3 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get('home',function(){
 	return "hello boys";
 })
+
+Route::get('index',function(){
+	return "hello boys";
+})
